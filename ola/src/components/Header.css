@@ -1,8 +1,28 @@
-.Header{
-    background-color: rgb(82, 41, 25);
-    height: 70px;
-
+.Header {
+    background-color: #333;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 70px 0;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 3.2em;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.search {
+    display: block;
+    margin: 0 auto 2rem auto;
+    padding: 0.5rem;
+    font-size: 1.1rem;
+    width: 80%;
+    max-width: 400px;
+    background-color: #333;
+    border: solid white 1px;
+    border-radius: 10px;
 }
